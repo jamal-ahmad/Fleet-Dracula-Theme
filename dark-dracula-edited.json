@@ -1,0 +1,1441 @@
+{
+    "meta": {
+        "theme.name": "Fleet Dark - Dracula",
+        "theme.kind": "Dark",
+        "theme.version": 8
+    },
+    "palette": {
+        "dracula-base-BG": "#282A36",
+        "dracula-base-FG": "#F8F8F2",
+        "dracula-base-SELECTION": "#44475A",
+        "dracula-base-COMMENT": "#6272A4",
+        "dracula-base-CYAN": "#8BE9FD",
+        "dracula-base-CYAN-50": "#8BE9FD80",
+        "dracula-base-CYAN-70": "#8BE9FDB3",
+        "dracula-base-GREEN": "#50FA7B",
+        "dracula-base-GREEN-20": "#50FA7B33",
+        "dracula-base-GREEN-70": "#50FA7BB3",
+        "dracula-base-ORANGE": "#FFB86C",
+        "dracula-base-ORANGE-20": "#FFB86C33",
+        "dracula-base-ORANGE-70": "#FFB86CB3",
+        "dracula-base-PINK": "#FF79C6",
+        "dracula-base-PINK-70": "#FF79C6B3",
+        "dracula-base-PURPLE": "#BD93F9",
+        "dracula-base-PURPLE-50": "#BD93F980",
+        "dracula-base-RED": "#FF5555",
+        "dracula-base-RED-50": "#FF555580",
+        "dracula-base-RED-70": "#FF5555B3",
+        "dracula-base-YELLOW": "#F1FA8C",
+        "dracula-base-YELLOW-50": "#F1FA8C80",
+        "dracula-ansi-COLOR0": "#21222C",
+        "dracula-ansi-COLOR1": "#FF5555",
+        "dracula-ansi-COLOR2": "#50FA7B",
+        "dracula-ansi-COLOR3": "#F1FA8C",
+        "dracula-ansi-COLOR4": "#BD93F9",
+        "dracula-ansi-COLOR5": "#FF79C6",
+        "dracula-ansi-COLOR6": "#8BE9FD",
+        "dracula-ansi-COLOR7": "#F8F8F2",
+        "dracula-ansi-COLOR8": "#6272A4",
+        "dracula-ansi-COLOR9": "#FF6E6E",
+        "dracula-ansi-COLOR10": "#69FF94",
+        "dracula-ansi-COLOR11": "#FFFFA5",
+        "dracula-ansi-COLOR12": "#D6ACFF",
+        "dracula-ansi-COLOR13": "#FF92DF",
+        "dracula-ansi-COLOR14": "#A4FFFF",
+        "dracula-ansi-COLOR15": "#FFFFFF",
+        "dracula-brightOther-TEMP_QUOTES": "#E9F284",
+        "dracula-brightOther-TEMP_PROPERTY_QUOTES": "#8BE9FE",
+        "dracula-other-LineHighlight": "#44475A75",
+        "dracula-other-NonText": "#FFFFFF1A",
+        "dracula-other-White": "#FFFFFF",
+        "dracula-other-TAB_DROP_BG": "#44475A70",
+        "dracula-other-BGLighter": "#424450",
+        "dracula-other-BGLight": "#343746",
+        "dracula-other-BGDark": "#21222C",
+        "dracula-other-BGDarker": "#191A21",
+        "Gray 120": "#D1D1D1",
+        "Gray 110": "#C2C2C2",
+        "Gray 100": "#A0A0A0",
+        "Gray 90": "#898989",
+        "Gray 80": "#767676",
+        "Gray 70": "#5D5D5D",
+        "Gray 60": "#484848",
+        "Gray 50": "#383838",
+        "Gray 40": "#333333",
+        "Gray 30": "#2D2D2D",
+        "Gray 20": "#292929",
+        "Gray 10": "#181818",
+        "Black": "#000000",
+        "Blue 110": "#6DAAF7",
+        "Blue 100": "#4D9BF8",
+        "Blue 90": "#3691F9",
+        "Blue 80": "#1A85F6",
+        "Blue 70": "#0273EB",
+        "Blue 60": "#0C6DDD",
+        "Blue 50": "#195EB5",
+        "Blue 40": "#194176",
+        "Blue 30": "#163764",
+        "Blue 20": "#132C4F",
+        "Blue 10-60": "#0B1B3299",
+        "Blue 10": "#0B1B32",
+        "Blue": "#87C3FF",
+        "Red 80": "#EC7388",
+        "Red 70": "#EA4B67",
+        "Red 60": "#D93953",
+        "Red 50": "#CE364D",
+        "Red 40": "#C03248",
+        "Red 30": "#A72A3F",
+        "Red 20": "#761B2D",
+        "Red 10": "#390813",
+        "Green 80": "#4CA988",
+        "Green 70": "#3EA17F",
+        "Green 60": "#028764",
+        "Green 50": "#07805F",
+        "Green 40": "#13664E",
+        "Green 30": "#134939",
+        "Green 20": "#0E3127",
+        "Green 10": "#081F19",
+        "Yellow 60": "#F8AB17",
+        "Yellow 50": "#E1971B",
+        "Yellow 40": "#B5791F",
+        "Yellow 30": "#7C511A",
+        "Yellow 20": "#5A3A14",
+        "Yellow 10": "#281806",
+        "Purple 30": "#C07BF3",
+        "Purple 20": "#B35DEF",
+        "Purple 10-60": "#2B0B4099",
+        "Purple 10": "#2B0B40",
+        "Blue Light": "#ADD1DE",
+        "Coral": "#CC7C8A",
+        "Cyan": "#82D2CE",
+        "Cyan Dark": "#779E9E",
+        "Lime": "#A8CC7C",
+        "Orange": "#E09B70",
+        "Pink": "#E394DC",
+        "Violet": "#AF9CFF",
+        "Violet 70": "#958CF7",
+        "Violet 60": "#6D60F4",
+        "Violet 50": "#5A4CE5",
+        "Violet 40": "#4D40D8",
+        "Violet 30": "#473BC4",
+        "Violet 20": "#3A3098",
+        "Violet 10": "#282360",
+        "Yellow": "#EBC88D",
+        "Neutral_160": "#F8F8F9",
+        "Neutral_150": "#EEEFF0",
+        "Neutral_140": "#E0E1E4",
+        "Neutral_130": "#C3C5C9",
+        "Neutral_120": "#9EA3A8",
+        "Neutral_110": "#898E94",
+        "Neutral_100": "#7A7F86",
+        "Neutral_90": "#6E747B",
+        "Neutral_80": "#646B71",
+        "Neutral_70": "#5D636B",
+        "Neutral_60": "#4C5157",
+        "Neutral_50": "#3E4147",
+        "Neutral_40": "#323438",
+        "Neutral_30": "#252629",
+        "Neutral_20": "#18191B",
+        "Neutral_10": "#090909",
+        "Blue_160": "#F7F8FE",
+        "Blue_150": "#E9EFFC",
+        "Blue_140": "#D6E3F9",
+        "Blue_130": "#A8C6F4",
+        "Blue_120": "#71A3EF",
+        "Blue_110": "#4B8DEC",
+        "Blue_100": "#2A7DEB",
+        "Blue_90": "#0870E4",
+        "Blue_80": "#1868CB",
+        "Blue_70": "#1D61BA",
+        "Blue_60": "#225090",
+        "Blue_50": "#224271",
+        "Blue_40": "#1E3455",
+        "Blue_30": "#18263C",
+        "Blue_20": "#111926",
+        "Blue_10": "#06090F",
+        "Green_160": "#F5FAF5",
+        "Green_150": "#E6F2EA",
+        "Green_140": "#D2E7DB",
+        "Green_130": "#A3CEB8",
+        "Green_120": "#69B090",
+        "Green_110": "#409D78",
+        "Green_100": "#169068",
+        "Green_90": "#14835E",
+        "Green_80": "#1E7857",
+        "Green_70": "#216F52",
+        "Green_60": "#255A44",
+        "Green_50": "#234939",
+        "Green_40": "#1F392D",
+        "Green_30": "#182921",
+        "Green_20": "#111B16",
+        "Green_10": "#060A08",
+        "Red_160": "#FFF8F8",
+        "Red_150": "#FFE9EA",
+        "Red_140": "#FFD8DA",
+        "Red_130": "#FFB0B5",
+        "Red_120": "#F87C88",
+        "Red_110": "#EC5D6F",
+        "Red_100": "#E1465E",
+        "Red_90": "#D73251",
+        "Red_80": "#C72C49",
+        "Red_70": "#B82D46",
+        "Red_60": "#922C3B",
+        "Red_50": "#742831",
+        "Red_40": "#592228",
+        "Red_30": "#401A1E",
+        "Red_20": "#291214",
+        "Red_10": "#100607",
+        "Yellow_160": "#FFF8EF",
+        "Yellow_150": "#FCEDDC",
+        "Yellow_140": "#F5DEC2",
+        "Yellow_130": "#E5BF8C",
+        "Yellow_120": "#CD984D",
+        "Yellow_110": "#BD8128",
+        "Yellow_100": "#B07203",
+        "Yellow_90": "#9F680C",
+        "Yellow_80": "#916012",
+        "Yellow_70": "#865A15",
+        "Yellow_60": "#6C4B18",
+        "Yellow_50": "#573D18",
+        "Yellow_40": "#433016",
+        "Yellow_30": "#302412",
+        "Yellow_20": "#20180C",
+        "Yellow_10": "#0C0805",
+        "Violet_160": "#F9F7FE",
+        "Violet_150": "#EEEDFD",
+        "Violet_140": "#DEDFFC",
+        "Violet_130": "#BDC0FA",
+        "Violet_120": "#9599F9",
+        "Violet_110": "#7F80F9",
+        "Violet_100": "#726CF9",
+        "Violet_90": "#685AFB",
+        "Violet_80": "#604EF3",
+        "Violet_70": "#594CDD",
+        "Violet_60": "#4843A8",
+        "Violet_50": "#3A3982",
+        "Violet_40": "#2E2E61",
+        "Violet_30": "#222342",
+        "Violet_20": "#17172B",
+        "Violet_10": "#080810",
+        "Purple_160": "#FDF6FD",
+        "Purple_150": "#F6EAF9",
+        "Purple_140": "#EDDCF5",
+        "Purple_130": "#D8B9EC",
+        "Purple_120": "#C08FE0",
+        "Purple_110": "#B174D9",
+        "Purple_100": "#A660D4",
+        "Purple_90": "#9D4FCF",
+        "Purple_80": "#9049BE",
+        "Purple_70": "#8646AE",
+        "Purple_60": "#6A3D88",
+        "Purple_50": "#55346A",
+        "Purple_40": "#412B50",
+        "Purple_30": "#2F2139",
+        "Purple_20": "#1E1524",
+        "Purple_10": "#0B080D",
+        "YellowBright_10": "#E59408",
+        "LightTint_80": "#E0E1E4CC",
+        "LightTint_70": "#E0E1E4B2",
+        "LightTint_30": "#E0E1E44D",
+        "LightTint_20": "#E0E1E433",
+        "LightTint_15": "#E0E1E426",
+        "LightTint_12": "#E0E1E41F",
+        "LightTint_10": "#E0E1E41A",
+        "LightTint_8": "#E0E1E414",
+        "LightTint_5": "#E0E1E40D",
+        "DarkTint_70": "#18191BB2",
+        "DarkTint_60": "#18191B99",
+        "DarkTint_30": "#18191B4D",
+        "DarkTint_20": "#18191B33",
+        "DarkTint_15": "#18191B26",
+        "DarkTint_10": "#18191B1A",
+        "DarkTint_7": "#18191B12",
+        "DarkTint_5": "#18191B0D",
+        "DarkTint_3": "#18191B08",
+        "BlueTint_60": "#0870E499",
+        "BlueTint_40": "#0870E466",
+        "BlueTint_30": "#0870E44D",
+        "BlueTint_25": "#0870E440",
+        "BlueTint_20": "#0870E433",
+        "BlueTint_15": "#0870E426",
+        "BlueTint_10": "#0870E41A",
+        "BlueTint_5": "#0870E40D"
+    },
+    "colors": {
+        "text.dangerous": "dracula-base-RED",
+        "text.dimmed": "dracula-base-COMMENT",
+        "text.disabled": "dracula-base-SELECTION",
+        "text.error": "dracula-base-RED",
+        "text.primary": "dracula-base-FG",
+        "text.secondary": "dracula-base-COMMENT",
+        "text.success": "dracula-base-GREEN",
+        "text.warning": "dracula-base-ORANGE",
+        "background.dimmed": "dracula-other-BGDark",
+        "background.disabled": "dracula-other-BGDarker",
+        "background.error": "dracula-base-RED-50",
+        "background.primary": "dracula-base-BG",
+        "background.secondary": "dracula-other-BGLight",
+        "background.warning": "dracula-base-YELLOW-50",
+        "focusOutline": "dracula-base-COMMENT",
+        "banner.text": "dracula-base-FG",
+        "banner.background.primary": "Blue_30",
+        "banner.background.dangerous": "Red_30",
+        "banner.background.warning": "Yellow_30",
+        "banner.background.positive": "Green_30",
+        "banner.background.ai": "Violet_30",
+        "banner.background.info": "Blue_30",
+        "banner.border.primary": "Blue_60",
+        "banner.border.dangerous": "Red_60",
+        "banner.border.warning": "Yellow_60",
+        "banner.border.positive": "Green_60",
+        "banner.border.ai": "Violet_60",
+        "banner.border.info": "Blue_60",
+        "banner.secondary.background.error": "DarkTint_60",
+        "border": "dracula-base-PURPLE",
+        "border.focused": "dracula-base-PINK",
+        "button.dangerous.background.default": "Red_90",
+        "button.dangerous.background.disabled": "dracula-base-BG",
+        "button.dangerous.background.hovered": "Red_80",
+        "button.dangerous.background.pressed": "Red_70",
+        "button.dangerous.border.default": "Red_90",
+        "button.dangerous.border.disabled": "LightTint_12",
+        "button.dangerous.border.hovered": "Red_80",
+        "button.dangerous.border.pressed": "Red_70",
+        "button.dangerous.focusBorder": "Gray 10",
+        "button.dangerous.focusOutline": "Red_90",
+        "button.dangerous.separator.default": "LightTint_30",
+        "button.dangerous.separator.disabled": "LightTint_15",
+        "button.dangerous.split.focusBorder": "Red_120",
+        "button.dangerous.text.default": "dracula-base-FG",
+        "button.dangerous.text.disabled": "dracula-base-COMMENT",
+        "button.dangerous.text.hovered": "dracula-base-FG",
+        "button.dangerous.text.pressed": "dracula-base-FG",
+        "button.dangerous.text.hint": "dracula-base-FG",
+        "button.positive.background.default": "Green_90",
+        "button.positive.background.disabled": "dracula-base-BG",
+        "button.positive.background.hovered": "Green_80",
+        "button.positive.background.pressed": "Green_70",
+        "button.positive.border.default": "Green_90",
+        "button.positive.border.disabled": "LightTint_12",
+        "button.positive.border.hovered": "Green_80",
+        "button.positive.border.pressed": "Green_70",
+        "button.positive.focusBorder": "Gray 10",
+        "button.positive.focusOutline": "Green_90",
+        "button.positive.separator.default": "LightTint_30",
+        "button.positive.separator.disabled": "LightTint_15",
+        "button.positive.split.focusBorder": "Green_120",
+        "button.positive.text.default": "dracula-base-FG",
+        "button.positive.text.disabled": "dracula-base-COMMENT",
+        "button.positive.text.hovered": "dracula-base-FG",
+        "button.positive.text.pressed": "dracula-base-FG",
+        "button.positive.text.hint": "dracula-base-FG",
+        "button.primary.background.default": "Blue_90",
+        "button.primary.background.disabled": "dracula-base-BG",
+        "button.primary.background.hovered": "Blue_80",
+        "button.primary.background.pressed": "Blue_70",
+        "button.primary.border.default": "Blue_90",
+        "button.primary.border.disabled": "LightTint_12",
+        "button.primary.border.hovered": "Blue_80",
+        "button.primary.border.pressed": "Blue_70",
+        "button.primary.focusBorder": "Gray 10",
+        "button.primary.focusOutline": "Blue_90",
+        "button.primary.separator.default": "LightTint_30",
+        "button.primary.separator.disabled": "LightTint_15",
+        "button.primary.split.focusBorder": "Blue_120",
+        "button.primary.text.default": "dracula-base-FG",
+        "button.primary.text.disabled": "dracula-base-COMMENT",
+        "button.primary.text.hovered": "dracula-base-FG",
+        "button.primary.text.pressed": "dracula-base-FG",
+        "button.primary.text.hint": "dracula-base-FG",
+        "button.secondary.background.default": "LightTint_15",
+        "button.secondary.background.disabled": "dracula-base-BG",
+        "button.secondary.background.hovered": "#E0E1E42B",
+        "button.secondary.background.pressed": "LightTint_20",
+        "button.secondary.border.default": "dracula-base-BG",
+        "button.secondary.border.disabled": "LightTint_12",
+        "button.secondary.border.hovered": "dracula-base-BG",
+        "button.secondary.border.pressed": "dracula-base-BG",
+        "button.secondary.focusBorder": "Blue_100",
+        "button.secondary.focusOutline": "BlueTint_40",
+        "button.secondary.separator.default": "LightTint_20",
+        "button.secondary.separator.disabled": "LightTint_15",
+        "button.secondary.split.focusBorder": "Blue_50",
+        "button.secondary.text.default": "dracula-base-FG",
+        "button.secondary.text.disabled": "dracula-base-COMMENT",
+        "button.secondary.text.hovered": "dracula-base-FG",
+        "button.secondary.text.pressed": "dracula-base-FG",
+        "button.secondary.text.hint": "LightTint_70",
+        "button.warning.background.default": "Yellow_90",
+        "button.warning.background.disabled": "dracula-base-BG",
+        "button.warning.background.hovered": "Yellow_80",
+        "button.warning.background.pressed": "Yellow_70",
+        "button.warning.border.default": "Yellow_90",
+        "button.warning.border.disabled": "LightTint_12",
+        "button.warning.border.hovered": "Yellow_80",
+        "button.warning.border.pressed": "Yellow_70",
+        "button.warning.focusBorder": "Gray 10",
+        "button.warning.focusOutline": "Yellow_90",
+        "button.warning.separator.default": "LightTint_30",
+        "button.warning.separator.disabled": "LightTint_15",
+        "button.warning.split.focusBorder": "Yellow_120",
+        "button.warning.text.default": "dracula-base-FG",
+        "button.warning.text.disabled": "dracula-base-COMMENT",
+        "button.warning.text.hovered": "dracula-base-FG",
+        "button.warning.text.pressed": "dracula-base-FG",
+        "button.warning.text.hint": "dracula-base-FG",
+        "combobox.arrowButton.background.default": "LightTint_15",
+        "combobox.arrowButton.background.disabled": "dracula-base-BG",
+        "combobox.background.default": "dracula-base-BG",
+        "combobox.background.disabled": "LightTint_12",
+        "combobox.background.error": "dracula-base-BG",
+        "combobox.border.default": "Neutral_50",
+        "combobox.border.disabled": "LightTint_12",
+        "combobox.border.error": "Red_100",
+        "combobox.border.hovered": "Neutral_60",
+        "combobox.focusBorder.default": "Blue_100",
+        "combobox.focusBorder.error": "Red_100",
+        "combobox.focusOutline.default": "Blue_50",
+        "combobox.focusOutline.error": "Red_50",
+        "combobox.text.default": "dracula-base-FG",
+        "combobox.text.disabled": "dracula-base-COMMENT",
+        "combobox.text.error": "dracula-base-FG",
+        "checkbox.icon.default": "dracula-base-FG",
+        "checkbox.icon.disabled": "Gray 80",
+        "checkbox.text.default": "dracula-base-FG",
+        "checkbox.text.disabled": "dracula-base-COMMENT",
+        "checkbox.off.background.default": "LightTint_8",
+        "checkbox.off.background.disabled": "dracula-base-BG",
+        "checkbox.off.background.hovered": "LightTint_8",
+        "checkbox.off.background.pressed": "LightTint_8",
+        "checkbox.off.border.default": "Neutral_70",
+        "checkbox.off.border.disabled": "Neutral_60",
+        "checkbox.off.border.hovered": "Neutral_90",
+        "checkbox.off.border.pressed": "Neutral_90",
+        "checkbox.off.focusBorder": "Blue_90",
+        "checkbox.off.focusOutline": "Blue_50",
+        "checkbox.on.background.default": "Blue_90",
+        "checkbox.on.background.disabled": "LightTint_12",
+        "checkbox.on.background.hovered": "Blue_80",
+        "checkbox.on.background.pressed": "Blue_80",
+        "checkbox.on.border.default": "dracula-base-BG",
+        "checkbox.on.border.disabled": "Neutral_60",
+        "checkbox.on.border.hovered": "dracula-base-BG",
+        "checkbox.on.border.pressed": "dracula-base-BG",
+        "checkbox.on.focusBorder": "Neutral_20",
+        "checkbox.on.focusOutline": "Blue_90",
+        "completion.match.background": "dracula-base-BG",
+        "completion.match.text": "Blue 110",
+        "dragAndDrop.background": "#FFFFFF33",
+        "dragAndDrop.border.default": "BlueTint_60",
+        "dragAndDrop.border.highlight": "BlueTint_25",
+        "editor.background": "dracula-other-BGDark",
+        "editor.caret.background": "dracula-base-FG",
+        "editor.caret.border": "dracula-base-FG",
+        "editor.currentLine.background.default": "dracula-base-BG",
+        "editor.currentLine.background.focused": "dracula-other-LineHighlight",
+        "editor.foldedMark.background": "dracula-base-BG",
+        "editor.foldedMark.text": "dracula-base-COMMENT",
+        "editor.foldIndicator.background.hovered": "dracula-base-BG",
+        "editor.foldIndicator.icon.default": "dracula-base-COMMENT",
+        "editor.foldIndicator.icon.hovered": "dracula-base-CYAN",
+        "editor.gitDiff.background.added": "dracula-base-GREEN-20",
+        "editor.gitDiff.background.blame": "dracula-base-YELLOW-50",
+        "editor.gitDiff.background.conflict": "dracula-base-YELLOW-50",
+        "editor.gitDiff.background.deleted": "dracula-base-RED-50",
+        "editor.gitDiff.background.modified": "dracula-base-CYAN-50",
+        "editor.gitDiff.text.added": "dracula-base-GREEN-70",
+        "editor.gitDiff.text.conflict": "dracula-base-ORANGE-70",
+        "editor.gitDiff.text.deleted": "dracula-base-RED-70",
+        "editor.gitDiff.text.modified": "dracula-base-PINK-70",
+        "editor.interline.block.background": "Gray 20",
+        "editor.interline.listItem.background.default": "Gray 20",
+        "editor.interline.listItem.background.focused": "Blue 40",
+        "editor.interline.listItem.background.hovered": "Gray 30",
+        "editor.interline.listItem.background.selected": "Gray 50",
+        "editor.interline.listItem.border.default": "dracula-base-BG",
+        "editor.interline.listItem.border.focused": "dracula-base-BG",
+        "editor.interline.listItem.border.hovered": "dracula-base-BG",
+        "editor.interline.listItem.border.selected": "dracula-base-BG",
+        "editor.interline.listItem.text.default": "Gray 120",
+        "editor.interline.listItem.text.focused": "Gray 120",
+        "editor.interline.listItem.text.hovered": "Gray 120",
+        "editor.interline.listItem.text.secondary": "Gray 80",
+        "editor.interline.listItem.text.selected": "Gray 120",
+        "editor.lineNumber.current": "dracula-base-PINK",
+        "editor.lineNumber.default": "dracula-base-COMMENT",
+        "editor.postline.background.error": "#742F38",
+        "editor.postline.background.info": "Green 30",
+        "editor.postline.background.unused": "#5B3271",
+        "editor.postline.background.warning": "#605234",
+        "editor.postline.background.weakWarning": "#353025",
+        "editor.renamePostline.background": "Blue 10",
+        "editor.renamePostline.border": "Blue 100",
+        "editor.renamePostline.description.text": "Gray 120",
+        "editor.renamePostline.usages.text": "Yellow 60",
+        "editor.selectableFoldedMark.background.default": "dracula-base-BG",
+        "editor.selectableFoldedMark.background.focused": "Blue 30",
+        "editor.selectableFoldedMark.border.default": "Gray 90",
+        "editor.selectableFoldedMark.border.focused": "Blue 80",
+        "editor.selectableFoldedMark.text.default": "Gray 80",
+        "editor.selectableFoldedMark.text.focused": "#D1D1D180",
+        "editor.text": "dracula-base-FG",
+        "editor.whitespaceIndicator": "dracula-base-SELECTION",
+        "ghostButton.off.background.default": "dracula-base-BG",
+        "ghostButton.off.background.disabled": "dracula-base-BG",
+        "ghostButton.off.background.hovered": "LightTint_10",
+        "ghostButton.off.background.pressed": "LightTint_15",
+        "ghostButton.off.border.default": "dracula-base-BG",
+        "ghostButton.off.border.disabled": "dracula-base-BG",
+        "ghostButton.off.border.hovered": "dracula-base-BG",
+        "ghostButton.off.border.pressed": "dracula-base-BG",
+        "ghostButton.off.focusBorder": "Blue_100",
+        "ghostButton.off.focusOutline": "dracula-base-BG",
+        "ghostButton.off.text.default": "dracula-base-FG",
+        "ghostButton.off.text.disabled": "dracula-base-COMMENT",
+        "ghostButton.off.text.hovered": "dracula-base-FG",
+        "ghostButton.off.text.pressed": "dracula-base-FG",
+        "ghostButton.on.background.default": "BlueTint_40",
+        "ghostButton.on.background.disabled": "LightTint_12",
+        "ghostButton.on.background.hovered": "BlueTint_30",
+        "ghostButton.on.background.pressed": "BlueTint_25",
+        "ghostButton.on.border.default": "dracula-base-BG",
+        "ghostButton.on.border.disabled": "dracula-base-BG",
+        "ghostButton.on.border.hovered": "dracula-base-BG",
+        "ghostButton.on.border.pressed": "dracula-base-BG",
+        "ghostButton.on.focusBorder": "Blue_120",
+        "ghostButton.on.focusOutline": "dracula-base-BG",
+        "ghostButton.on.text.default": "Blue_120",
+        "ghostButton.on.text.disabled": "dracula-base-COMMENT",
+        "ghostButton.on.text.hovered": "Blue_120",
+        "ghostButton.on.text.pressed": "Blue_120",
+        "gitBranchTag.local.background": "Blue 10-60",
+        "gitBranchTag.local.border": "Blue 100",
+        "gitBranchTag.local.text": "Blue 100",
+        "gitBranchTag.remote.background": "Purple 10-60",
+        "gitBranchTag.remote.border": "Purple 30",
+        "gitBranchTag.remote.text": "Purple 30",
+        "icon.background.blue": "Blue 80",
+        "icon.background.green": "Green 40",
+        "icon.background.orange": "Yellow 40",
+        "icon.background.red": "Red 60",
+        "icon.background.cyan": "#13A4CD",
+        "inputField.background.default": "dracula-other-BGDark",
+        "inputField.background.disabled": "dracula-base-BG",
+        "inputField.background.error": "dracula-other-BGDark",
+        "inputField.border.default": "dracula-other-BGLighter",
+        "inputField.border.disabled": "dracula-other-BGLight",
+        "inputField.border.error": "dracula-base-RED-50",
+        "inputField.caret.default": "dracula-base-FG",
+        "inputField.caret.error": "dracula-base-FG",
+        "inputField.focusBorder.default": "dracula-base-CYAN-50",
+        "inputField.focusBorder.error": "dracula-base-RED-50",
+        "inputField.focusOutline.default": "dracula-base-CYAN-50",
+        "inputField.focusOutline.error": "dracula-base-RED-50",
+        "inputField.hint.default": "dracula-base-BG",
+        "inputField.hint.disabled": "dracula-base-BG",
+        "inputField.hint.error": "dracula-base-BG",
+        "inputField.hint.focused": "dracula-base-BG",
+        "inputField.hint.focusedError": "dracula-base-BG",
+        "inputField.selectionBackground.default": "Blue 40",
+        "inputField.selectionBackground.error": "Blue 40",
+        "inputField.text.default": "Gray 120",
+        "inputField.text.disabled": "Gray 80",
+        "inputField.text.error": "Gray 120",
+        "layout.error": "dracula-base-RED",
+        "link.focusOutline": "dracula-base-CYAN",
+        "link.text.default": "dracula-base-CYAN",
+        "link.text.disabled": "dracula-base-COMMENT",
+        "link.underline": "dracula-base-CYAN",
+        "listItem.background.default": "dracula-base-BG",
+        "listItem.background.focused": "dracula-other-LineHighlight",
+        "listItem.background.hovered": "dracula-other-LineHighlight",
+        "listItem.background.selected": "dracula-base-SELECTION",
+        "listItem.background.dnd": "dracula-base-CYAN",
+        "listItem.border.default": "dracula-base-BG",
+        "listItem.border.focused": "dracula-base-BG",
+        "listItem.border.hovered": "dracula-base-BG",
+        "listItem.border.selected": "dracula-base-BG",
+        "listItem.focusBorder": "dracula-base-COMMENT",
+        "listItem.text.default": "dracula-base-FG",
+        "listItem.text.focused": "dracula-base-FG",
+        "listItem.text.hovered": "dracula-base-FG",
+        "listItem.text.secondary": "dracula-base-COMMENT",
+        "listItem.text.selected": "dracula-base-FG",
+        "mainToolbar.background": "dracula-base-BG",
+        "smartMode.background.enabled": "dracula-base-CYAN-70",
+        "smartMode.background.error": "dracula-base-RED-70",
+        "smartMode.border.loading": "dracula-base-SELECTION",
+        "notification.background.default": "dracula-other-BGLight",
+        "notification.background.unread": "dracula-other-BGDark",
+        "notification.text.primary": "dracula-base-FG",
+        "notification.text.secondary": "dracula-base-COMMENT",
+        "notification.separator": "dracula-other-BGLight",
+        "notification.moreButton.background.default": "Neutral_30",
+        "notification.moreButton.background.hovered": "Neutral_40",
+        "notification.moreButton.background.pressed": "Neutral_50",
+        "notification.moreButton.border.default": "Neutral_40",
+        "notification.moreButton.border.hovered": "Neutral_50",
+        "notification.moreButton.border.pressed": "Neutral_60",
+        "notification.moreButton.text.default": "dracula-base-FG",
+        "notification.moreButton.text.hovered": "dracula-base-FG",
+        "notification.moreButton.text.pressed": "dracula-base-FG",
+        "parameterInfo.match.text": "Blue 110",
+        "pillButton.background.default": "Gray 20",
+        "pillButton.background.disabled": "Gray 20",
+        "pillButton.background.focused": "Gray 20",
+        "pillButton.background.hovered": "Gray 50",
+        "pillButton.background.pressed": "Gray 40",
+        "pillButton.border.default": "Gray 50",
+        "pillButton.border.disabled": "Gray 50",
+        "pillButton.border.focused": "Blue 80",
+        "pillButton.border.hovered": "Gray 50",
+        "pillButton.border.pressed": "Gray 50",
+        "pillButton.focusBorder": "Blue 80",
+        "pillButton.focusOutline": "Blue 40",
+        "pillButton.text.default": "Gray 90",
+        "pillButton.text.disabled": "Gray 90",
+        "pillButton.text.focused": "Gray 90",
+        "pillButton.text.hovered": "Gray 90",
+        "pillButton.text.pressed": "Gray 90",
+        "popup.background": "dracula-base-BG",
+        "popup.border": "dracula-base-PURPLE",
+        "popup.text": "dracula-base-FG",
+        "popup.closeIcon": "LightTint_30",
+        "popup.editor.background": "dracula-base-BG",
+        "popup.editor.border": "dracula-base-PURPLE",
+        "popup.goto.background": "Neutral_30",
+        "popup.listItem.background.default": "dracula-base-BG",
+        "popup.listItem.background.focused": "dracula-base-ORANGE-20",
+        "popup.listItem.background.hovered": "dracula-base-ORANGE-20",
+        "popup.listItem.background.selected": "dracula-base-ORANGE-20",
+        "popup.listItem.border.default": "dracula-base-BG",
+        "popup.listItem.border.focused": "dracula-base-BG",
+        "popup.listItem.border.hovered": "dracula-base-BG",
+        "popup.listItem.border.selected": "dracula-base-BG",
+        "popup.listItem.text.default": "Gray 120",
+        "popup.listItem.text.focused": "Gray 120",
+        "popup.listItem.text.hovered": "Gray 120",
+        "popup.listItem.text.secondary": "Gray 80",
+        "popup.listItem.text.selected": "Gray 120",
+        "popup.tab.background.default": "dracula-other-BGDark",
+        "popup.tab.background.hovered": "dracula-other-BGLight",
+        "popup.tab.background.selected": "dracula-base-BG",
+        "popup.tab.border": "dracula-base-COMMENT",
+        "popup.tab.indicator": "dracula-base-PINK",
+        "popup.tab.text": "Gray 120",
+        "popup.tabPanel.background": "Gray 20",
+        "popup.tabPanel.border": "dracula-base-PURPLE",
+        "problemsWidget.checkmark.background": "Green 20",
+        "problemsWidget.checkmark.foreground": "Green 70",
+        "problemsWidget.status.expanded.background.error": "Red 50",
+        "problemsWidget.status.expanded.background.warning": "Yellow 40",
+        "problemsWidget.status.expanded.background.weakWarning": "Yellow 10",
+        "problemsWidget.status.expanded.border.error": "Red 50",
+        "problemsWidget.status.expanded.border.warning": "Yellow 40",
+        "problemsWidget.status.expanded.border.weakWarning": "Yellow 30",
+        "problemsWidget.status.expanded.lineNumber.error": "dracula-base-FG",
+        "problemsWidget.status.expanded.lineNumber.warning": "dracula-base-FG",
+        "problemsWidget.status.expanded.lineNumber.weakWarning": "Gray 120",
+        "progressBar.determinate.background": "dracula-base-PINK",
+        "progressBar.determinate.foreground": "dracula-base-FG",
+        "progressBar.indeterminate.foreground": "dracula-base-COMMENT",
+        "progressBar.indeterminate.foregroundAccent": "dracula-base-SELECTION",
+        "remote.userColor.background.eight": "#6D4DFF",
+        "remote.userColor.background.five": "Green 70",
+        "remote.userColor.background.four": "#74A827",
+        "remote.userColor.background.nine": "#A842EB",
+        "remote.userColor.background.one": "#DB3552",
+        "remote.userColor.background.seven": "#3D5BFC",
+        "remote.userColor.background.six": "Blue 80",
+        "remote.userColor.background.ten": "#BD40B4",
+        "remote.userColor.background.three": "Yellow 60",
+        "remote.userColor.background.two": "#E55F2E",
+        "remoteWorkspaceStatusLabel.background.docker": "Blue 30",
+        "remoteWorkspaceStatusLabel.background.space": "#5C338F",
+        "remoteWorkspaceStatusLabel.background.ssh": "Green 20",
+        "remoteWorkspaceStatusLabel.background.wsl": "Yellow 20",
+        "remoteWorkspaceStatusLabel.text.docker": "Gray 120",
+        "remoteWorkspaceStatusLabel.text.space": "Gray 120",
+        "remoteWorkspaceStatusLabel.text.ssh": "Gray 120",
+        "remoteWorkspaceStatusLabel.text.wsl": "Gray 120",
+        "remoteHostStatusLabel.background.failed": "Red 60",
+        "remoteHostStatusLabel.background.disconnected": "Gray 80",
+        "remoteHostStatusLabel.background.connecting": "Gray 120",
+        "remoteHostStatusLabel.background.connected": "Green 70",
+        "scrollbar.thumb.default": "LightTint_15",
+        "scrollbar.thumb.hovered": "LightTint_20",
+        "scrollbar.thumb.pressed": "LightTint_30",
+        "scrollbar.track.default": "dracula-base-BG",
+        "scrollbar.track.hovered": "LightTint_10",
+        "scrollbar.track.pressed": "LightTint_10",
+        "search.match.background": "Yellow 30",
+        "search.match.text": "Gray 120",
+        "search.counter.background": "#FFFFFF26",
+        "separator.default": "dracula-base-COMMENT",
+        "separator.hovered": "dracula-base-PINK",
+        "settings.modified.indicator": "dracula-base-ORANGE",
+        "shadow.background.large": "#000000D9",
+        "shadow.background.medium": "#000000D9",
+        "shadow.background.small": "#00000040",
+        "shadow.border": "Black",
+        "statusBar.background": "dracula-base-BG",
+        "survey.button.background.default": "Gray 60",
+        "survey.button.background.hovered": "Blue 70",
+        "survey.button.border.default": "dracula-base-BG",
+        "survey.button.border.hovered": "dracula-base-BG",
+        "survey.button.focusBorder": "Blue 80",
+        "survey.button.focusOutline": "Blue 40",
+        "survey.button.text.default": "Gray 120",
+        "survey.button.text.hovered": "dracula-base-FG",
+        "switch.off.thumb": "dracula-base-FG",
+        "switch.off.track.default": "Gray 60",
+        "switch.off.track.hovered": "Gray 60",
+        "switch.on.thumb": "dracula-base-FG",
+        "switch.on.track.default": "Blue 70",
+        "switch.on.track.hovered": "Blue 70",
+        "tab.background.default": "dracula-other-BGDarker",
+        "tab.background.hovered": "dracula-other-BGLight",
+        "tab.background.selected": "dracula-other-BGLight",
+        "tab.background.pressed": "dracula-other-BGLighter",
+        "tab.background.dragAndDrop": "dracula-other-BGLighter",
+        "tab.border.default": "dracula-other-BGDarker",
+        "tab.border.hovered": "dracula-base-COMMENT",
+        "tab.border.selected": "dracula-base-PINK",
+        "tab.border.pressed": "dracula-base-CYAN",
+        "tab.border.dragAndDrop": "dracula-base-CYAN",
+        "tab.focusOutline.dragAndDrop": "dracula-base-CYAN",
+        "tab.text.default": "dracula-base-COMMENT",
+        "tab.text.hovered": "dracula-base-COMMENT",
+        "tab.text.selected": "dracula-base-FG",
+        "tab.text.pressed": "dracula-base-CYAN",
+        "tab.closeIcon.default": "dracula-base-COMMENT",
+        "tab.closeIcon.hovered": "dracula-base-RED",
+        "tab.hint.default": "dracula-base-COMMENT",
+        "tab.hint.hovered": "dracula-base-COMMENT",
+        "tab.hint.selected": "dracula-base-COMMENT",
+        "tab.hint.pressed": "dracula-base-COMMENT",
+        "tab.indicator": "dracula-base-PINK",
+        "tabPanel.background": "dracula-base-BG",
+        "tabPanel.border": "dracula-base-BG",
+        "terminal.ansiColors.background.ansiBlack": "dracula-ansi-COLOR0",
+        "terminal.ansiColors.background.ansiBlue": "dracula-ansi-COLOR6",
+        "terminal.ansiColors.background.ansiBrightBlack": "dracula-ansi-COLOR8",
+        "terminal.ansiColors.background.ansiBrightBlue": "dracula-ansi-COLOR14",
+        "terminal.ansiColors.background.ansiBrightCyan": "dracula-ansi-COLOR14",
+        "terminal.ansiColors.background.ansiBrightGreen": "dracula-ansi-COLOR10",
+        "terminal.ansiColors.background.ansiBrightMagenta": "dracula-ansi-COLOR13",
+        "terminal.ansiColors.background.ansiBrightRed": "dracula-ansi-COLOR9",
+        "terminal.ansiColors.background.ansiBrightWhite": "dracula-ansi-COLOR0",
+        "terminal.ansiColors.background.ansiBrightYellow": "dracula-ansi-COLOR11",
+        "terminal.ansiColors.background.ansiCyan": "dracula-ansi-COLOR6",
+        "terminal.ansiColors.background.ansiGreen": "dracula-ansi-COLOR2",
+        "terminal.ansiColors.background.ansiMagenta": "dracula-ansi-COLOR5",
+        "terminal.ansiColors.background.ansiRed": "dracula-ansi-COLOR1",
+        "terminal.ansiColors.background.ansiWhite": "dracula-ansi-COLOR6",
+        "terminal.ansiColors.background.ansiYellow": "dracula-ansi-COLOR3",
+        "terminal.ansiColors.foreground.ansiBlack": "dracula-ansi-COLOR15",
+        "terminal.ansiColors.foreground.ansiBlue": "dracula-ansi-COLOR6",
+        "terminal.ansiColors.foreground.ansiBrightBlack": "dracula-ansi-COLOR15",
+        "terminal.ansiColors.foreground.ansiBrightBlue": "dracula-ansi-COLOR14",
+        "terminal.ansiColors.foreground.ansiBrightCyan": "dracula-ansi-COLOR14",
+        "terminal.ansiColors.foreground.ansiBrightGreen": "dracula-ansi-COLOR10",
+        "terminal.ansiColors.foreground.ansiBrightMagenta": "dracula-ansi-COLOR13",
+        "terminal.ansiColors.foreground.ansiBrightRed": "dracula-ansi-COLOR9",
+        "terminal.ansiColors.foreground.ansiBrightWhite": "dracula-ansi-COLOR15",
+        "terminal.ansiColors.foreground.ansiBrightYellow": "dracula-ansi-COLOR11",
+        "terminal.ansiColors.foreground.ansiCyan": "dracula-ansi-COLOR6",
+        "terminal.ansiColors.foreground.ansiGreen": "dracula-ansi-COLOR2",
+        "terminal.ansiColors.foreground.ansiMagenta": "dracula-ansi-COLOR5",
+        "terminal.ansiColors.foreground.ansiRed": "dracula-ansi-COLOR1",
+        "terminal.ansiColors.foreground.ansiWhite": "dracula-ansi-COLOR7",
+        "terminal.ansiColors.foreground.ansiYellow": "dracula-ansi-COLOR3",
+        "tileButton.off.background.default": "LightTint_12",
+        "tileButton.off.background.disabled": "dracula-base-BG",
+        "tileButton.off.background.hovered": "LightTint_10",
+        "tileButton.off.background.pressed": "LightTint_8",
+        "tileButton.off.border.default": "dracula-base-BG",
+        "tileButton.off.border.disabled": "LightTint_12",
+        "tileButton.off.border.hovered": "dracula-base-BG",
+        "tileButton.off.border.pressed": "dracula-base-BG",
+        "tileButton.off.focusBorder": "Blue_100",
+        "tileButton.off.focusOutline": "Blue_50",
+        "tileButton.off.text.default": "dracula-base-FG",
+        "tileButton.off.text.disabled": "dracula-base-COMMENT",
+        "tileButton.off.text.hovered": "dracula-base-FG",
+        "tileButton.off.text.pressed": "dracula-base-FG",
+        "tileButton.off.text.shortcut.default": "LightTint_70",
+        "tileButton.off.text.shortcut.disabled": "Neutral_110",
+        "tileButton.on.background.default": "BlueTint_30",
+        "tileButton.on.background.disabled": "dracula-base-BG",
+        "tileButton.on.background.hovered": "BlueTint_25",
+        "tileButton.on.background.pressed": "BlueTint_20",
+        "tileButton.on.border.default": "Blue_100",
+        "tileButton.on.border.disabled": "LightTint_12",
+        "tileButton.on.border.hovered": "Blue_100",
+        "tileButton.on.border.pressed": "Blue_100",
+        "tileButton.on.focusBorder": "Neutral_20",
+        "tileButton.on.focusOutline": "Blue_90",
+        "tileButton.on.text.default": "dracula-base-FG",
+        "tileButton.on.text.disabled": "dracula-base-COMMENT",
+        "tileButton.on.text.hovered": "dracula-base-FG",
+        "tileButton.on.text.pressed": "dracula-base-FG",
+        "tileButton.on.text.shortcut.default": "LightTint_70",
+        "tileButton.on.text.shortcut.disabled": "dracula-base-COMMENT",
+        "toast.background": "LightTint_80",
+        "toast.border": "dracula-base-BG",
+        "toast.text": "Neutral_10",
+        "toggleButton.off.background.default": "dracula-base-BG",
+        "toggleButton.off.background.disabled": "dracula-base-BG",
+        "toggleButton.off.background.hovered": "LightTint_8",
+        "toggleButton.off.background.pressed": "LightTint_10",
+        "toggleButton.off.border.default": "LightTint_15",
+        "toggleButton.off.border.disabled": "LightTint_12",
+        "toggleButton.off.border.hovered": "LightTint_8",
+        "toggleButton.off.border.pressed": "LightTint_8",
+        "toggleButton.off.focusBorder": "Blue_100",
+        "toggleButton.off.focusOutline": "Blue_50",
+        "toggleButton.off.text.default": "dracula-base-FG",
+        "toggleButton.off.text.disabled": "dracula-base-COMMENT",
+        "toggleButton.off.text.hovered": "dracula-base-FG",
+        "toggleButton.off.text.pressed": "dracula-base-FG",
+        "toggleButton.on.background.default": "Blue_90",
+        "toggleButton.on.background.disabled": "LightTint_12",
+        "toggleButton.on.background.hovered": "Blue_80",
+        "toggleButton.on.background.pressed": "Blue_70",
+        "toggleButton.on.border.default": "dracula-base-BG",
+        "toggleButton.on.border.disabled": "dracula-base-BG",
+        "toggleButton.on.border.hovered": "dracula-base-BG",
+        "toggleButton.on.border.pressed": "dracula-base-BG",
+        "toggleButton.on.focusBorder": "Gray 10",
+        "toggleButton.on.focusOutline": "Blue_90",
+        "toggleButton.on.text.default": "dracula-base-FG",
+        "toggleButton.on.text.disabled": "dracula-base-COMMENT",
+        "toggleButton.on.text.hovered": "dracula-base-FG",
+        "toggleButton.on.text.pressed": "dracula-base-FG",
+        "tool.background": "dracula-other-BGDark",
+        "tooltip.text.primary": "dracula-base-FG",
+        "tooltip.text.secondary": "dracula-base-COMMENT",
+        "tooltip.text.tertiary": "dracula-base-SELECTION",
+        "tooltip.background": "dracula-base-BG",
+        "tooltip.border": "dracula-base-PURPLE",
+        "tooltip.error.text": "dracula-base-FG",
+        "tooltip.error.background": "dracula-base-RED-70",
+        "tooltip.error.border": "dracula-base-BG",
+        "tree.focusBorder": "dracula-base-PURPLE",
+        "tree.compactFolder.selector.default": "dracula-base-COMMENT",
+        "tree.compactFolder.selector.focused": "dracula-base-PINK",
+        "tree.compactFolder.separator": "dracula-base-COMMENT",
+        "ai.attachment.background.default": "Violet_50",
+        "ai.button.default.background.default": "Violet_90",
+        "ai.button.default.background.disabled": "dracula-base-BG",
+        "ai.button.default.background.hovered": "Violet_80",
+        "ai.button.default.background.pressed": "Violet_70",
+        "ai.button.default.border.default": "Violet_90",
+        "ai.button.default.border.disabled": "LightTint_12",
+        "ai.button.default.border.hovered": "Violet_80",
+        "ai.button.default.border.pressed": "Violet_70",
+        "ai.button.default.focusBorder": "Gray 10",
+        "ai.button.default.focusOutline": "Violet_90",
+        "ai.button.separator.default": "LightTint_30",
+        "ai.button.separator.disabled": "LightTint_15",
+        "ai.button.split.focusBorder": "Violet_120",
+        "ai.button.default.text.default": "dracula-base-FG",
+        "ai.button.default.text.disabled": "dracula-base-COMMENT",
+        "ai.button.default.text.hovered": "dracula-base-FG",
+        "ai.button.default.text.pressed": "dracula-base-FG",
+        "ai.button.default.text.hint": "dracula-base-FG",
+        "ai.button.recipe.background.default": "Gray 10",
+        "ai.button.recipe.background.disabled": "Gray 10",
+        "ai.button.recipe.background.hovered": "Violet 40",
+        "ai.button.recipe.background.pressed": "Violet 30",
+        "ai.button.recipe.border.default": "Violet 60",
+        "ai.button.recipe.border.disabled": "Gray 60",
+        "ai.button.recipe.border.hovered": "dracula-base-BG",
+        "ai.button.recipe.border.pressed": "dracula-base-BG",
+        "ai.button.recipe.focusBorder": "Violet 60",
+        "ai.button.recipe.focusOutline": "Violet 20",
+        "ai.button.recipe.text.default": "Gray 120",
+        "ai.button.recipe.text.disabled": "Gray 70",
+        "ai.button.recipe.text.hovered": "dracula-base-FG",
+        "ai.button.recipe.text.pressed": "dracula-base-FG",
+        "ai.button.recipe.text.hint": "dracula-base-FG",
+        "ai.error.border": "Red 50",
+        "ai.warning.border": "Yellow 30",
+        "ai.error.fill": "Red 10",
+        "ai.warning.fill": "Yellow 10",
+        "ai.icon.background": "Violet 70",
+        "ai.icon.background.secondary": "Violet 10",
+        "ai.icon.text": "Violet 70",
+        "ai.inputField.background.default": "Gray 20",
+        "ai.inputField.background.disabled": "Gray 50",
+        "ai.inputField.border.default": "Gray 60",
+        "ai.inputField.border.disabled": "Gray 50",
+        "ai.inputField.caret.default": "Gray 120",
+        "ai.inputField.focusBorder.default": "Violet 70",
+        "ai.inputField.focusOutline.default": "Violet 40",
+        "ai.inputField.selectionBackground.default": "Blue 40",
+        "ai.inputField.text.default": "Gray 120",
+        "ai.inputField.text.disabled": "Gray 80",
+        "ai.inputField.snippet.border": "Gray 50",
+        "ai.snippet.border": "dracula-base-BG",
+        "ai.snippet.editor.background": "Gray 30",
+        "ai.snippet.header.background": "Gray 50",
+        "ai.user.icon.background": "Blue 70",
+        "ai.user.icon.background.secondary": "Blue 20",
+        "ai.user.icon.text": "Blue 100",
+        "vim.recordingTag.background": "Red_50",
+        "vim.recordingTag.border": "dracula-base-BG",
+        "vim.recordingTag.text": "Gray 120",
+        "vim.mode.cmdLine.background": "Yellow_50",
+        "vim.mode.cmdLine.border": "dracula-base-BG",
+        "vim.mode.cmdLine.text": "Gray 120",
+        "vim.mode.insert.background": "Green_50",
+        "vim.mode.insert.border": "dracula-base-BG",
+        "vim.mode.insert.text": "Gray 120",
+        "vim.mode.normal.background": "Neutral_40",
+        "vim.mode.normal.border": "dracula-base-BG",
+        "vim.mode.normal.text": "Gray 120",
+        "vim.mode.replace.background": "Red_50",
+        "vim.mode.replace.border": "dracula-base-BG",
+        "vim.mode.replace.text": "Gray 120",
+        "vim.mode.select.background": "Purple_50",
+        "vim.mode.select.border": "dracula-base-BG",
+        "vim.mode.select.text": "Gray 120",
+        "vim.mode.visual.background": "Blue_50",
+        "vim.mode.visual.border": "dracula-base-BG",
+        "vim.mode.visual.text": "Gray 120"
+    },
+    "textAttributes": {
+        "editor.text.scheme": {
+            "foregroundColor": "dracula-base-FG"
+        },
+        "editor.text.composable": {
+            "textDecoration": {
+                "color": "dracula-base-FG"
+            }
+        },
+        "editor.selection": {
+            "backgroundColor": "dracula-base-ORANGE-20"
+        },
+        "editor.selection.focused": {
+            "backgroundColor": "dracula-base-ORANGE-20"
+        },
+        "editor.search.results": {
+            "backgroundColor": "dracula-base-ORANGE-20"
+        },
+        "editor.rename.entries": {
+            "backgroundColor": "dracula-base-ORANGE-20"
+        },
+        "editor.rename.current": {
+            "border": {
+                "color": "Blue 80"
+            }
+        },
+        "editor.brace.match": {
+            "backgroundColor": "#2A524F"
+        },
+        "comment": {
+            "foregroundColor": "dracula-base-COMMENT"
+        },
+        "comment.doc": {
+            "foregroundColor": "dracula-base-COMMENT"
+        },
+        "comment.doc.tag": {
+            "foregroundColor": "dracula-base-PINK"
+        },
+        "comment.doc.value": {
+            "foregroundColor": "dracula-base-ORANGE"
+        },
+        "comment.todo": {
+            "foregroundColor": "dracula-base-RED"
+        },
+        "link": {},
+        "link.always.visible": {
+            "textDecoration": {}
+        },
+        "link.hovered": {
+            "foregroundColor": "Blue_110",
+            "textDecoration": {
+                "color": "Blue_110"
+            }
+        },
+        "error.hovered": {
+            "backgroundColor": "Red 20"
+        },
+        "keyword": {
+            "foregroundColor": "dracula-base-PINK"
+        },
+        "keyword.typeModifier": {
+            "foregroundColor": "dracula-base-CYAN"
+        },
+        "metadata": {
+            "foregroundColor": "Lime"
+        },
+        "number": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "boolean": {
+            "foregroundColor": "dracula-base-PINK"
+        },
+        "string": {
+            "foregroundColor": "dracula-base-YELLOW"
+        },
+        "string.binary": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "string.escape": {
+            "foregroundColor": "dracula-base-GREEN"
+        },
+        "string.escape.unicode": {
+            "foregroundColor": "dracula-base-ORANGE"
+        },
+        "string.escape.alternative": {
+            "foregroundColor": "dracula-base-ORANGE"
+        },
+        "string.formatItem": {
+            "foregroundColor": "dracula-base-YELLOW"
+        },
+        "string.regexp": {
+            "foregroundColor": "dracula-base-CYAN"
+        },
+        "identifier": {
+            "foregroundColor": "dracula-base-FG"
+        },
+        "identifier.this": {
+            "foregroundColor": "dracula-base-PINK",
+            "fontStyle": "ITALIC"
+        },
+        "identifier.this.mutable": {
+            "foregroundColor": "dracula-base-PINK",
+            "fontStyle": "ITALIC",
+            "textDecoration": {
+                "color": "#CC7C8A"
+            }
+        },
+        "identifier.underCaret": {
+            "backgroundColor": "dracula-base-SELECTION",
+            "statusColor": "#27706C"
+        },
+        "identifier.constant": {
+            "foregroundColor": "Violet"
+        },
+        "identifier.constant.predefined": {
+            "foregroundColor": "Cyan"
+        },
+        "identifier.variable": {
+            "foregroundColor": "Gray 120"
+        },
+        "identifier.variable.mutable": {
+            "textDecoration": {
+                "color": "Gray 70"
+            }
+        },
+        "identifier.parameter": {
+            "foregroundColor": "dracula-base-FG",
+            "fontWeight": "BOLD"
+        },
+        "identifier.parameter.js": {
+            "foregroundColor": "dracula-base-FG",
+            "fontWeight": "BOLD"
+        },
+        "identifier.function.declaration": {
+            "foregroundColor": "dracula-base-GREEN",
+            "fontWeight": "SEMI_BOLD"
+        },
+        "identifier.function.declaration.js": {
+            "foregroundColor": "dracula-base-GREEN",
+            "fontWeight": "SEMI_BOLD"
+        },
+        "identifier.function.call": {
+            "foregroundColor": "dracula-base-GREEN"
+        },
+        "identifier.function.call.package": {
+            "foregroundColor": "dracula-base-GREEN"
+        },
+        "identifier.function.call.composable": {
+            "foregroundColor": "dracula-base-GREEN"
+        },
+        "identifier.method.static": {
+            "foregroundColor": "dracula-base-GREEN",
+            "fontStyle": "ITALIC",
+            "fontWeight": "SEMI_BOLD"
+        },
+        "identifier.type": {
+            "foregroundColor": "dracula-base-CYAN"
+        },
+        "identifier.field": {
+            "foregroundColor": "dracula-base-ORANGE"
+        },
+        "identifier.field.static": {
+            "foregroundColor": "dracula-base-PURPLE",
+            "fontStyle": "ITALIC",
+            "fontWeight": "SEMI_BOLD"
+        },
+        "identifier.interface": {
+            "foregroundColor": "dracula-base-CYAN"
+        },
+        "identifier.type.class": {
+            "foregroundColor": "dracula-base-CYAN"
+        },
+        "identifier.type.enum": {
+            "foregroundColor": "dracula-base-CYAN"
+        },
+        "identifier.type.struct": {
+            "foregroundColor": "dracula-base-CYAN"
+        },
+        "identifier.type.valueType": {
+            "foregroundColor": "dracula-base-CYAN"
+        },
+        "identifier.typeParameter": {
+            "foregroundColor": "dracula-base-CYAN"
+        },
+        "identifier.namedArgument": {
+            "foregroundColor": "dracula-base-COMMENT"
+        },
+        "identifier.other": {
+            "foregroundColor": "Blue"
+        },
+        "attributeName.html": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "attributeValue.html": {
+            "foregroundColor": "dracula-base-PINK"
+        },
+        "entityReference.html": {
+            "foregroundColor": "dracula-base-ORANGE"
+        },
+        "tag.html": {
+            "foregroundColor": "Gray 90"
+        },
+        "tagName.html": {
+            "foregroundColor": "Blue"
+        },
+        "tagName.custom.html": {
+            "foregroundColor": "dracula-base-ORANGE"
+        },
+        "attributeName.css": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "hex.css": {
+            "foregroundColor": "dracula-base-YELLOW"
+        },
+        "identifier.css": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "identifier.function.css": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "identifier.variable.css": {
+            "foregroundColor": "Blue"
+        },
+        "interpolation.css": {
+            "foregroundColor": "Gray 120"
+        },
+        "identifier.variable.php": {
+            "foregroundColor": "Blue Light"
+        },
+        "property.php": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "property.static.php": {
+            "foregroundColor": "dracula-base-PURPLE",
+            "fontStyle": "ITALIC"
+        },
+        "generic.php": {
+            "foregroundColor": "dracula-base-YELLOW"
+        },
+        "jsCodeDelimiter.css": {
+            "foregroundColor": "dracula-base-PINK"
+        },
+        "jsCodeInjection.css": {
+            "foregroundColor": "Gray 120"
+        },
+        "key.json": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "keyword.css": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "keyword.extend.css": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "keyword.global.css": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "keyword.important.css": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "mixin.css": {
+            "foregroundColor": "dracula-base-PINK"
+        },
+        "number.css": {
+            "foregroundColor": "dracula-base-PINK"
+        },
+        "number.unit.css": {
+            "foregroundColor": "dracula-base-PURPLE"
+        },
+        "propertyName.css": {
+            "foregroundColor": "dracula-base-ORANGE"
+        },
+        "propertyValue.css": {
+            "foregroundColor": "dracula-base-FG"
+        },
+        "punctuation.css": {
+            "foregroundColor": "Gray 120"
+        },
+        "selector.css": {
+            "foregroundColor": "Violet"
+        },
+        "selector.id.css": {
+            "foregroundColor": "Violet"
+        },
+        "selector.class.css": {
+            "foregroundColor": "Violet"
+        },
+        "selector.pseudo.css": {
+            "foregroundColor": "Violet"
+        },
+        "selector.tag.css": {
+            "foregroundColor": "Violet"
+        },
+        "string.css": {
+            "foregroundColor": "Pink"
+        },
+        "url.css": {
+            "foregroundColor": "Blue Light",
+            "textDecoration": {
+                "color": "#546267"
+            }
+        },
+        "attribute.cpp": {
+            "foregroundColor": "Coral"
+        },
+        "markup.heading": {
+            "foregroundColor": "Cyan",
+            "fontWeight": "BOLD"
+        },
+        "markup.bold": {
+            "fontWeight": "BOLD"
+        },
+        "markup.italic": {
+            "fontStyle": "ITALIC"
+        },
+        "markup.code.block": {
+            "foregroundColor": "#EB83E2"
+        },
+        "markup.href": {
+            "foregroundColor": "Pink",
+            "fontStyle": "ITALIC",
+            "textDecoration": {}
+        },
+        "punctuation": {
+            "foregroundColor": "Gray 120"
+        },
+        "punctuation.operator": {
+            "foregroundColor": "Gray 120"
+        },
+        "snippet": {
+            "border": {
+                "color": "Gray 90"
+            }
+        },
+        "snippet.selected": {
+            "border": {
+                "color": "Blue 80"
+            }
+        },
+        "debug.currentFrame": {
+            "backgroundColor": "#074747"
+        },
+        "diff.added": {
+            "backgroundColor": "#122923"
+        },
+        "diff.added.word": {
+            "backgroundColor": "#193B32"
+        },
+        "diff.added.withBorder": {
+            "backgroundColor": "#122923",
+            "border": {
+                "color": "Green 20"
+            }
+        },
+        "diff.added.resolved": {
+            "backgroundColor": "dracula-base-BG",
+            "border": {
+                "color": "Green 20"
+            }
+        },
+        "diff.added.empty": {
+            "backgroundColor": "Green 30"
+        },
+        "diff.deleted": {
+            "backgroundColor": "#331B20"
+        },
+        "diff.deleted.word": {
+            "backgroundColor": "#4D2A31"
+        },
+        "diff.deleted.withBorder": {
+            "backgroundColor": "#331B20",
+            "border": {
+                "color": "#572B34"
+            }
+        },
+        "diff.deleted.resolved": {
+            "backgroundColor": "dracula-base-BG",
+            "border": {
+                "color": "#572B34"
+            }
+        },
+        "diff.deleted.empty": {
+            "backgroundColor": "#B24052"
+        },
+        "diff.modified": {
+            "backgroundColor": "#182538"
+        },
+        "diff.modified.word": {
+            "backgroundColor": "#1F3657"
+        },
+        "diff.modified.withBorder": {
+            "backgroundColor": "#182538",
+            "border": {
+                "color": "Blue 40"
+            }
+        },
+        "diff.modified.resolved": {
+            "backgroundColor": "dracula-base-BG",
+            "border": {
+                "color": "Blue 40"
+            }
+        },
+        "diff.conflict.withBorder": {
+            "backgroundColor": "#302518",
+            "border": {
+                "color": "Yellow 20"
+            }
+        },
+        "diff.conflict.resolved": {
+            "backgroundColor": "dracula-base-BG",
+            "border": {
+                "color": "Yellow 20"
+            }
+        },
+        "refactoring.modified.code": {
+            "backgroundColor": "Green 30"
+        },
+        "problem.error": {
+            "textDecoration": {
+                "color": "#FF5269",
+                "thickness": 2.0
+            }
+        },
+        "problem.error.badCharacter": {
+            "textDecoration": {
+                "color": "#FF5269",
+                "thickness": 2.0
+            }
+        },
+        "problem.warning": {
+            "textDecoration": {
+                "color": "#FACB66",
+                "thickness": 2.0
+            }
+        },
+        "problem.warning.weak": {
+            "textDecoration": {
+                "color": "#695937",
+                "thickness": 2.0
+            }
+        },
+        "problem.deprecated": {
+            "textDecoration": {
+                "color": "Gray 120",
+                "type": "LINE_THROUGH"
+            }
+        },
+        "problem.info": {
+            "textDecoration": {
+                "color": "#A366C4"
+            }
+        },
+        "problem.unknown": {},
+        "problem.unused": {
+            "foregroundColor": "Gray 80"
+        },
+        "dracula-base-BG": {},
+        "comment.buildConstraint.go": {
+            "foregroundColor": "Gray 120"
+        },
+        "identifier.methodReceiver.go": {
+            "foregroundColor": "Gray 120"
+        },
+        "identifier.package.go": {
+            "foregroundColor": "Lime"
+        },
+        "identifier.typeDeclaration.go": {
+            "foregroundColor": "Gray 120"
+        },
+        "identifier.typeReference.go": {
+            "foregroundColor": "Blue"
+        },
+        "identifier.variable.shadowing.go": {
+            "foregroundColor": "Orange"
+        },
+        "metadata.structTag.arbitraryText.go": {
+            "foregroundColor": "Gray 90"
+        },
+        "metadata.structTag.key.go": {
+            "foregroundColor": "Gray 120"
+        },
+        "metadata.structTag.value.go": {
+            "foregroundColor": "Pink"
+        },
+        "identifier.anchor.yaml": {
+            "foregroundColor": "Lime"
+        },
+        "identifier.alias.yaml": {
+            "foregroundColor": "Orange"
+        },
+        "punctuation.operator.merge.yaml": {
+            "foregroundColor": "Yellow"
+        },
+        "schema.yaml": {
+            "foregroundColor": "Coral"
+        },
+        "key.yaml": {
+            "foregroundColor": "Cyan"
+        },
+        "value.yaml": {
+            "foregroundColor": "Violet"
+        },
+        "ai.generated": {
+            "backgroundColor": "#242142"
+        },
+        "identifier.dependency.scope.amper": {
+            "foregroundColor": "Orange"
+        },
+        "identifier.dependency.annotator.amper": {
+            "foregroundColor": "Blue"
+        },
+        "identifier.dependency.add.amper": {
+            "foregroundColor": "Lime"
+        },
+        "editor.indentGuide": {
+            "foregroundColor": "dracula-base-SELECTION",
+            "textDecoration": {
+                "style": "DASHED"
+            }
+        },
+        "editor.indentGuide.current": {
+            "foregroundColor": "dracula-base-COMMENT",
+            "textDecoration": {
+                "style": "DASHED"
+            }
+        },
+        "editor.indentGuide.declaration": {
+            "foregroundColor": "Gray 40"
+        },
+        "editor.indentGuide.declaration.current": {
+            "foregroundColor": "Gray 70"
+        }
+    }
+}
