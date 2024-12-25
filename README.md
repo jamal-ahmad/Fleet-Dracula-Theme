@@ -2,7 +2,7 @@
 
 A WIP Dracula theme for Jetbrains Fleet adapted from the default "Fleet Dark" theme
 
-⚠️ ANSI colors need some help!
+⚠️ terminal ANSI colors need some help!
 
 ## Using this theme
 
@@ -10,9 +10,11 @@ A WIP Dracula theme for Jetbrains Fleet adapted from the default "Fleet Dark" th
 
 ## Screenshots
 
-<img width="1728" alt="image" src="https://github.com/user-attachments/assets/37a74f53-6570-45ab-a683-faa51d7054c9" />
+<img width="1840" alt="image" src="https://github.com/user-attachments/assets/2dfecb1c-5b40-49f2-9b87-1446adffc212" />
 
-<img width="1728" alt="image" src="https://github.com/user-attachments/assets/e2649fc4-6c88-4b19-86a4-90e1c598c7ee" />
+<img width="1840" alt="image" src="https://github.com/user-attachments/assets/2dfc801d-e2b1-463f-8342-f20d8c1a534a" />
 
-<img width="1728" alt="image" src="https://github.com/user-attachments/assets/146dd76c-7f1c-4b86-bb5a-52ffc67e8186" />
+<img width="1840" alt="image" src="https://github.com/user-attachments/assets/da942faa-c02a-4274-88c2-da424592528a" />
+
+<img width="1840" alt="image" src="https://github.com/user-attachments/assets/e7e9d0ae-687a-4074-ae34-9813f8f9dde3" />
 
